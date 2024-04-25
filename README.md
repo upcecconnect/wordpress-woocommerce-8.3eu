@@ -27,9 +27,9 @@ Go to WooCommerce > Settings and the Payments tab. Find eCommerceConnect in the 
 3. Generate the public / private key pair with merchant crt according to the instructions from Ukrainian Processing Center
 4. Copy the PEM key file to the server:
    
-   Prod: wp-content/plugins/woocommerce-ecommerceconnect-gateway/cert/prod/
+   Prod: wp-content/plugins/woocommerce-ecommerceconnect-gateway/keys/
    
 5. Provide the *Callback URL* to the Ukrainian Processing Center to enable online payment notifications   
 ![notify url](image.png)
 
-6. Merchant ID, Terminal ID, Shop location fields are required
+6. Merchant ID, Terminal ID, Payment Gateway URL fields are required
